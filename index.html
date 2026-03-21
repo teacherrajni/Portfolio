@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajni Behl | Professional Educator Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --font-serif: 'Playfair Display', serif;
+            --font-sans: 'Inter', sans-serif;
+        }
+        body {
+            font-family: var(--font-sans);
+            background-color: #fcfcfc;
+        }
+        h1, h2, h3, .serif {
+            font-family: var(--font-serif);
+        }
+        .academic-grid {
+            background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .nav-blur {
+            backdrop-filter: blur(8px);
+            background: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 nav-blur border-b border-slate-100">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold tracking-tighter text-blue-900 serif italic">RB.</div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest">
+                <a href="#home" class="hover:text-blue-600 transition">Home</a>
+                <a href="#about" class="hover:text-blue-600 transition">Profile</a>
+                <a href="#experience" class="hover:text-blue-600 transition">Experience</a>
+                <a href="#education" class="hover:text-blue-600 transition">Education</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+            </div>
+            <a href="mailto:rajnikbehl2013@gmail.com" class="bg-blue-900 text-white px-5 py-2 text-sm rounded-full hover:bg-blue-800 transition">Hire Me</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 px-6 academic-grid min-h-screen flex items-center">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="inline-block px-3 py-1 bg-blue-50 text-blue-700 text-xs font-bold tracking-widest uppercase rounded mb-4">
+                    Senior Educator & TGT Specialist
+                </span>
+                <h1 class="text-5xl md:text-7xl font-bold leading-tight text-slate-900 mb-6">
+                    Shaping Futures Through <span class="italic text-blue-900">Knowledge.</span>
+                </h1>
+                <p class="text-lg text-slate-600 mb-8 max-w-lg">
+                    With over 12 years of experience in Social Science and English pedagogy, I am dedicated to fostering critical thinking and global awareness in the next generation.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#experience" class="border-2 border-slate-900 px-8 py-3 font-semibold hover:bg-slate-900 hover:text-white transition">View Work</a>
+                    <a href="#contact" class="flex items-center space-x-2 px-8 py-3 font-semibold text-blue-900 underline decoration-2 underline-offset-4">Contact Info</a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="aspect-square bg-slate-200 rounded-2xl overflow-hidden shadow-2xl flex items-center justify-center text-slate-400 italic">
+                   <span class="text-6xl serif">RB</span>
+                </div>
+                <div class="absolute -bottom-6 -left-6 bg-white p-6 shadow-xl border border-slate-100 rounded-lg">
+                    <div class="text-4xl font-bold text-blue-900">12+</div>
+                    <div class="text-xs uppercase tracking-widest font-bold text-slate-500">Years Teaching</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Statistics -->
+    <section id="about" class="py-24 px-6 bg-white border-y border-slate-100">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="reveal">
+                    <h3 class="text-xl font-bold mb-4 flex items-center underline decoration-blue-200 decoration-4">
+                        Academic Excellence
+                    </h3>
+                    <p class="text-slate-600 leading-relaxed italic">
+                        "Determined and reliable individual with strong interpersonal skills and a deep passion for English literature and Social Science."
+                    </p>
+                </div>
+                <div class="reveal delay-100">
+                    <h3 class="text-xl font-bold mb-4 flex items-center underline decoration-blue-200 decoration-4">
+                        Pedagogical Mastery
+                    </h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Expertise in teaching Grade 9 & 10 students, specializing in dramatized storytelling and practical Social Science application.
+                    </p>
+                </div>
+                <div class="reveal delay-200">
+                    <h3 class="text-xl font-bold mb-4 flex items-center underline decoration-blue-200 decoration-4">
+                        Leadership
+                    </h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Experienced MUN and Tourism club in-charge with a track record of coordinating major annual functions and editorial projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="experience" class="py-24 px-6 bg-slate-50">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl font-bold mb-16 text-center">Professional Journey</h2>
+            <div class="space-y-12 relative">
+                <!-- Vertical Line -->
+                <div class="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 w-0.5 h-full bg-slate-200"></div>
+
+                <!-- Exp 1 -->
+                <div class="relative flex flex-col md:flex-row items-center reveal">
+                    <div class="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
+                        <h4 class="text-blue-900 font-bold uppercase tracking-widest text-sm">Present</h4>
+                        <h3 class="text-xl font-bold">Delhi Public School</h3>
+                        <p class="text-slate-500">TGT Social Science | Indore, M.P.</p>
+                    </div>
+                    <div class="absolute left-[-8px] md:left-1/2 transform md:-translate-x-1/2 w-4 h-4 rounded-full bg-blue-900 ring-4 ring-white shadow"></div>
+                    <div class="md:w-1/2 md:pl-12">
+                        <p class="text-slate-600">Leading the Social Science department for higher grades, focusing on modern teaching methodologies and inclusive learning environments.</p>
+                    </div>
+                </div>
+
+                <!-- Exp 2 -->
+                <div class="relative flex flex-col md:flex-row items-center reveal">
+                    <div class="md:w-1/2 md:pr-12 md:text-right order-2 md:order-1">
+                         <p class="text-slate-600">Dedicated English and Social Science educator for senior students, contributing to curriculum development.</p>
+                    </div>
+                    <div class="absolute left-[-8px] md:left-1/2 transform md:-translate-x-1/2 w-4 h-4 rounded-full bg-slate-300 ring-4 ring-white shadow"></div>
+                    <div class="md:w-1/2 md:pl-12 mb-4 md:mb-0 order-1 md:order-2">
+                        <h4 class="text-slate-400 font-bold uppercase tracking-widest text-sm">2017</h4>
+                        <h3 class="text-xl font-bold">Queens' College</h3>
+                        <p class="text-slate-500">TGT Social Science | Indore, M.P.</p>
+                    </div>
+                </div>
+
+                <!-- Exp 3 -->
+                <div class="relative flex flex-col md:flex-row items-center reveal">
+                    <div class="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
+                        <h4 class="text-slate-400 font-bold uppercase tracking-widest text-sm">2012</h4>
+                        <h3 class="text-xl font-bold">Advanced Academy</h3>
+                        <p class="text-slate-500">TGT English | Indore, M.P.</p>
+                    </div>
+                    <div class="absolute left-[-8px] md:left-1/2 transform md:-translate-x-1/2 w-4 h-4 rounded-full bg-slate-300 ring-4 ring-white shadow"></div>
+                    <div class="md:w-1/2 md:pl-12">
+                        <p class="text-slate-600">Specialized in English language teaching and literature appreciation for secondary classes.</p>
+                    </div>
+                </div>
+
+                <!-- Exp 4 -->
+                <div class="relative flex flex-col md:flex-row items-center reveal">
+                    <div class="md:w-1/2 md:pr-12 md:text-right order-2 md:order-1">
+                         <p class="text-slate-600">Foundational teaching roles in prestigious schools across Greater Noida including Apeejay and Jaypee International.</p>
+                    </div>
+                    <div class="absolute left-[-8px] md:left-1/2 transform md:-translate-x-1/2 w-4 h-4 rounded-full bg-slate-300 ring-4 ring-white shadow"></div>
+                    <div class="md:w-1/2 md:pl-12 mb-4 md:mb-0 order-1 md:order-2">
+                        <h4 class="text-slate-400 font-bold uppercase tracking-widest text-sm">2008 - 2010</h4>
+                        <h3 class="text-xl font-bold">Various Institutions</h3>
+                        <p class="text-slate-500 text-xs">St. Joseph's, Jaypee International, Apeejay</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-24 px-6 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row gap-16">
+                <div class="md:w-1/3 reveal">
+                    <h2 class="text-4xl font-bold mb-6">Skills & <br><span class="italic font-normal">Expertise</span></h2>
+                    <p class="text-slate-600">A unique blend of traditional pedagogy and modern classroom management skills, refined through international training in Canada.</p>
+                </div>
+                <div class="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="p-6 bg-slate-50 border border-slate-100 rounded hover:shadow-md transition">
+                        <h4 class="font-bold mb-2">Advanced Pedagogy</h4>
+                        <p class="text-sm text-slate-500">Lesson planning, dramatic storytelling, and curriculum integration.</p>
+                    </div>
+                    <div class="p-6 bg-slate-50 border border-slate-100 rounded hover:shadow-md transition">
+                        <h4 class="font-bold mb-2">Communication</h4>
+                        <p class="text-sm text-slate-500">Highly proficient in written and spoken English, debate coordination.</p>
+                    </div>
+                    <div class="p-6 bg-slate-50 border border-slate-100 rounded hover:shadow-md transition">
+                        <h4 class="font-bold mb-2">Event Coordination</h4>
+                        <p class="text-sm text-slate-500">Tourism club, MUN in-charge, and Annual Day lead coordinator.</p>
+                    </div>
+                    <div class="p-6 bg-slate-50 border border-slate-100 rounded hover:shadow-md transition">
+                        <h4 class="font-bold mb-2">Digital Literacy</h4>
+                        <p class="text-sm text-slate-500">Proficient in MS Office, digital lesson delivery, and e-learning tools.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-24 px-6 bg-blue-900 text-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 flex items-center">
+                <span class="h-px w-12 bg-blue-400 mr-4"></span> Academic Foundations
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="border-l border-blue-700 pl-6 reveal">
+                    <div class="text-blue-300 text-xs font-bold uppercase tracking-widest mb-2">2019 • Post Graduation</div>
+                    <h3 class="text-xl font-bold serif mb-1">MA Economics</h3>
+                    <p class="text-blue-100 text-sm">DAVV, MP (1st Division)</p>
+                </div>
+                <div class="border-l border-blue-700 pl-6 reveal delay-100">
+                    <div class="text-blue-300 text-xs font-bold uppercase tracking-widest mb-2">2008 • Education</div>
+                    <h3 class="text-xl font-bold serif mb-1">B.Ed</h3>
+                    <p class="text-blue-100 text-sm">Allahabad University (1st Division)</p>
+                </div>
+                <div class="border-l border-blue-700 pl-6 reveal delay-200">
+                    <div class="text-blue-300 text-xs font-bold uppercase tracking-widest mb-2">1988 • Arts</div>
+                    <h3 class="text-xl font-bold serif mb-1">Bachelor of Arts</h3>
+                    <p class="text-blue-100 text-sm">Delhi University (1st Division)</p>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="mt-20 pt-10 border-t border-blue-800">
+                <h3 class="text-sm font-bold tracking-widest uppercase text-blue-300 mb-8">Additional Training</h3>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-sm">
+                        <p class="font-bold">Employability Skills</p>
+                        <p class="text-blue-200 text-xs">Manitoba Start, Canada (2012)</p>
+                    </div>
+                    <div class="text-sm">
+                        <p class="font-bold">Nursery Training</p>
+                        <p class="text-blue-200 text-xs">IWVEA, Noida (2007)</p>
+                    </div>
+                    <div class="text-sm">
+                        <p class="font-bold">Spoken English</p>
+                        <p class="text-blue-200 text-xs">British High Commission (1999)</p>
+                    </div>
+                    <div class="text-sm">
+                        <p class="font-bold">Computer Science</p>
+                        <p class="text-blue-200 text-xs">NIIT Technology (1993)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-24 px-6 bg-white reveal">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-5xl font-bold mb-6">Let's Connect</h2>
+            <p class="text-slate-600 mb-12 text-lg">Open for collaborations, educational workshops, and senior teaching opportunities.</p>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <a href="mailto:rajnikbehl2013@gmail.com" class="flex flex-col items-center p-8 border border-slate-100 hover:bg-slate-50 transition rounded-xl">
+                    <span class="text-blue-900 font-bold mb-1 uppercase tracking-widest text-xs">Email</span>
+                    <span class="text-lg">rajnikbehl2013@gmail.com</span>
+                </a>
+                <div class="flex flex-col items-center p-8 border border-slate-100 hover:bg-slate-50 transition rounded-xl">
+                    <span class="text-blue-900 font-bold mb-1 uppercase tracking-widest text-xs">Phone</span>
+                    <span class="text-lg">+91 8989005809</span>
+                </div>
+            </div>
+            
+            <div class="mt-12 text-slate-400 text-sm">
+                <p>Date of Birth: 21 July 1967 • Nationality: Indian</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-6 border-t border-slate-100 text-center text-slate-400 text-xs">
+        <p>© 2024 RAJNI BEHL. Educator | Leader | Mentor.</p>
+    </footer>
+
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+        // To check the scroll position on page load
+        reveal();
+    </script>
+</body>
+</html>
